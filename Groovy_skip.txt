@@ -1,0 +1,27 @@
+import com.sap.gateway.ip.core.customdev.util.Message
+import groovy.json.JsonBuilder
+
+def Message processData(Message message) {
+
+    def body = message.getBody(String).trim()
+
+   def lines = body.readLines()
+   def dataLine = lines[1]
+
+    def fields = dataLine.split(',')
+
+    def json = [
+        orderNumber : fields[0],
+        supplierName: fields[1],
+        currency    : fields[2],
+        prodID      : fields[3],
+        productName : fields[4],
+        quantity    : fields[5],
+        price       : fields[6],
+        lastProd    : fields[7]
+    ]
+
+    message.setBody(new JsonBuilder(json).toPrettyString())
+
+    return message
+}
