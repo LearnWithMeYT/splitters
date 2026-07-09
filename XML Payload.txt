@@ -1,0 +1,124 @@
+<Orders>
+    <Company>ABC Retail Ltd</Company>
+    <Country>US</Country>
+    <CreatedDate>2026-06-09</CreatedDate>
+
+    <OrderHeader>
+        <orderNumber>1001</orderNumber>
+        <supplierName>Walt</supplierName>
+        <currency>USD</currency>
+
+        <OrderItems>
+
+            <Order_MT>
+                <prodID>1</prodID>
+                <productName>Timber</productName>
+                <quantity>10</quantity>
+                <price>100</price>
+                <lastProd>No</lastProd>
+            </Order_MT>
+
+            <Order_MT>
+                <prodID>2</prodID>
+                <productName>Nails</productName>
+                <quantity>50</quantity>
+                <price>10</price>
+                <lastProd>No</lastProd>
+            </Order_MT>
+
+            <Order_MT>
+                <prodID>3</prodID>
+                <productName>Hammer</productName>
+                <quantity>5</quantity>
+                <price>25</price>
+                <lastProd>Yes</lastProd>
+            </Order_MT>
+
+        </OrderItems>
+
+    </OrderHeader>
+
+    <OrderHeader>
+        <orderNumber>1002</orderNumber>
+        <supplierName>Walt</supplierName>
+        <currency>USD</currency>
+
+        <OrderItems>
+
+            <Order_MT>
+                <prodID>4</prodID>
+                <productName>Paint</productName>
+                <quantity>20</quantity>
+                <price>50</price>
+                <lastProd>No</lastProd>
+            </Order_MT>
+
+            <Order_MT>
+                <prodID>5</prodID>
+                <productName>Brush</productName>
+                <quantity>10</quantity>
+                <price>15</price>
+                <lastProd>Yes</lastProd>
+            </Order_MT>
+
+        </OrderItems>
+
+    </OrderHeader>
+
+    <OrderHeader>
+        <orderNumber>1003</orderNumber>
+        <supplierName>Walt</supplierName>
+        <currency>USD</currency>
+
+        <OrderItems>
+
+            <Order_MT>
+                <prodID>6</prodID>
+                <productName>Stand</productName>
+                <quantity>20</quantity>
+                <price>50</price>
+                <lastProd>No</lastProd>
+            </Order_MT>
+
+            <Order_MT>
+                <prodID>7</prodID>
+                <productName>Table</productName>
+                <quantity>10</quantity>
+                <price>15</price>
+                <lastProd>Yes</lastProd>
+            </Order_MT>
+
+        </OrderItems>
+
+    </OrderHeader>
+
+    <OrderHeader>
+        <orderNumber>1004</orderNumber>
+        <supplierName>Walt</supplierName>
+        <currency>USD</currency>
+
+        <OrderItems>
+
+            <Order_MT>
+                <prodID>7</prodID>
+                <productName>Cupboard</productName>
+                <quantity>20</quantity>
+                <price>50</price>
+                <lastProd>No</lastProd>
+            </Order_MT>
+
+            <Order_MT>
+                <prodID>8</prodID>
+                <productName>Showcase</productName>
+                <quantity>10</quantity>
+                <price>15</price>
+                <lastProd>Yes</lastProd>
+            </Order_MT>
+
+        </OrderItems>
+
+    </OrderHeader>
+
+
+
+</Orders>
